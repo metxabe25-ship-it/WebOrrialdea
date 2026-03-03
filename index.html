@@ -24,6 +24,10 @@
                             <a class="nav-link active" href="#">Hasiera</a>
                         </li>
 
+                        <li>
+                            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">Hasi saioa</button>
+                        </li>
+
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                                 Zerbitzuak
@@ -109,9 +113,39 @@
         <footer class="bg-dark text-white text-center p-3">
             <p class="mb-0"> 2026 Txakurrak Webgunea 🐾</p>
         </footer>
+
+        <div class="modal fade" id="loginModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+    
+      <div class="modal-header">
+        <h5 class="modal-title">Hasi zaioa</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="tuemail@ejemplo.com">
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Contraseña</label>
+            <input type="password" class="form-control" placeholder="********">
+          </div>
+
+          <button type="submit" class="btn btn-dark w-100">Entrar</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
     </body>
 
 </html>
+
 
 
 
